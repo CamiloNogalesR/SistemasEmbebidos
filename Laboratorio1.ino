@@ -50,7 +50,7 @@ if(cont == 0){
         lcd.setCursor(11,0);
         lcd.print(cont);
         lcd.setCursor(0,1);
-        lcd.print("           ");
+        lcd.print("               ");
         if(cont>=30){
           cont=30;
           lcd.setCursor(0,0);
